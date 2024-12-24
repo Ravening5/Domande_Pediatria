@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulazione Scelta Domande</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simulazione Scelta Domande</h1>
+        <div>
+            <button id="btnPediatria">Pediatria</button>
+            <button id="btnChPediatrica">Ch. Pediatrica</button><br>
+            <button id="btnNeuropsichiatria">Neuropsichiatria</button>
+            <button id="btnGenetica">Genetica</button>
+        </div>
+        <button id="btnSimulazioneEsame" style="width: 300px; height: 50px;">Simulazione Esame</button>
+        <div id="result"></div>
+        <button id="btnDomande" style="width: 200px; height: 40px; margin-top: 20px;">Elenco Domande</button>
+        <div id="modal" class="modal">
+            <h2>Elenco Domande</h2>
+            <ul id="domandeList"></ul>
+            <button onclick="nascondiModal()">Chiudi</button>
+        </div>
+        <div class="author">
+            <span>GianniLR</span> - UniMe
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
