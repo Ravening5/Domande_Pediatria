@@ -63,3 +63,9 @@ button:hover {
     padding: 20px;
     text-align: left;
 }
+
+.anno {
+    font-size: 14px;
+    color: #ccc;
+    margin-top: 5px;
+}
